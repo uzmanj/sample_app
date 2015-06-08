@@ -8,7 +8,25 @@
 </head>
 <body>
 
+<header class="header">
+	<%= link_to "Homepage", root_path%>
+	<%= link_to "About Us", aboutus_path%>
+	<%= link_to "Contact Us", contactus_path%>
+</header>
+
+<div class="sidebar">
+	<h2 class="emphasis">Products<h2>
+	<ul id="product_list">
+		<li class="sidebar_link"> <%= link_to "Cookies", cookies_path %> </li>
+		<li class="sidebar_link"> <%= link_to "Brownies", brownies_path %></li>
+	</ul>
+</div>
+
 <%= yield %>
+
+<footer>
+	<div class="footer">Copyright 2015</div>
+</footer>
 
 </body>
 </html>

@@ -4,6 +4,21 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  root "welcome#welcome_page"
+  get "cookies" => "baked#cookie_page"
+  get "brownies" => "baked#brownie_page"
+  get "aboutus" => "welcome#aboutus"
+  get "contactus" => "welcome#contactus"
+
+#  get "hello_world" => "welcome#home_page"
+
+  get "welcome" => "welcome#welcome_page"
+
+#  get "villains/:key" => "welcome#detail"
+
+          #key - arbitrary label
+
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'

@@ -13,3 +13,43 @@
  *= require_tree .
  *= require_self
  */
+
+ .header{
+ 	font-size:20px;
+ 	color:rgb(169, 74, 171);
+ 	background-color:yellow;
+ }
+
+.footer{
+	text-align: center;
+	margin: 0 auto;
+	width: 25%;
+}
+
+ .title{
+ 	font-size:50px;
+ 	font-weight:bold;
+ 	color:rgb(169, 74, 171);
+	margin-left:30%;
+ 	width:50%;
+ }
+
+ .body {
+ 	background-color: green;
+ 	color: white;
+ }
+
+
+.emphasis{
+	text-decoration: underline;
+}
+
+.sidebar {
+	float: left;
+	width: 20%;
+	background-color:yellow;
+}
+.sidebar_link {
+	text-decoration: none;
+	font-size:20px;
+}
